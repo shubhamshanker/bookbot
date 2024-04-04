@@ -24,9 +24,6 @@ def main():
 
     print("--- End Report ---")
 
-
-
-
 def count_words(word_block):
     words = word_block.split()
     return len(words)
@@ -44,12 +41,6 @@ def get_character_map(word_block):
         else:
             c_map[lowered] = 1
     return c_map
-
-    
-
-
-
-
 
 main()
 
